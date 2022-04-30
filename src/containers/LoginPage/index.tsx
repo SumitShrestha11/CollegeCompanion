@@ -4,11 +4,11 @@ import LoginIllustration from "./components/LoginIllustration";
 const Login = () => {
   return (
     <div className="grid grid-cols-12 gap-3 h-screen ">
-      <div className="col-span-8 flex items-center ">
+      <div className="lg:col-span-8 hidden lg:flex items-center ">
         <LoginIllustration />
       </div>
 
-      <div className="col-span-4 flex items-center ">
+      <div className="lg:col-span-4 col-span-12 flex items-center ">
         <LoginForm />
       </div>
     </div>
