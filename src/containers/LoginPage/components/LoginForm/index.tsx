@@ -9,6 +9,10 @@ const LoginForm = () => {
     password: "",
     keepLoggedIn: false,
   });
+  const user = {
+    userId: "Sumit",
+    password: "123",
+  };
 
   const [showPassword, setShowPassword] = useState<boolean>(false);
 
