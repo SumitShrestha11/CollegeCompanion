@@ -1,12 +1,12 @@
-import loginIllustraion from "../../../../assets/login-illustration.png";
+import loginIllustraion from "../../../../assets/login-illustration2.png";
 const LoginIllustration = () => {
   return (
     <>
-      <img src={loginIllustraion} alt="login-illustration" />
-      {/*attribution*/}
-      <a className="hidden" href="https://www.freepik.com/vectors/coder">
-        Coder vector created by upklyak - www.freepik.com
-      </a>
+      <img
+        src={loginIllustraion}
+        alt="login-illustration"
+        className="object-center h-screen"
+      />
     </>
   );
 };
