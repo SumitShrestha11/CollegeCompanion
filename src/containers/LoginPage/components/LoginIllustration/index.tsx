@@ -1,4 +1,4 @@
-import loginIllustraion from "../../../../assets/login-illustration2.png";
+import loginIllustraion from "../../../../assets/login-illustration.png";
 const LoginIllustration = () => {
   return (
     <>
